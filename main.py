@@ -52,8 +52,8 @@ RED = '\033[91m'
 GREEN = '\033[92m'
 CYAN = '\033[96m'
 MAGENTA = '\033[95m'
-ID = input(f"{YELLOW}{BOLD}ID :  ")
-token = input(f"{RED}{BOLD}Token : ")
+ID = input(f"{YELLOW}{BOLD}ID :  6820056931")
+token = input(f"{RED}{BOLD}Token : 7106898915:AAFYWIK_eRdBU5Yj29t94NT6QlfsJ2tDzOo")
 #def namefile():
 #  while True:
 #    try:
@@ -261,7 +261,7 @@ by : @Qredes
    # print(BLUE+tlg)
     with open('hits1.txt','a') as ff:
       ff.write(f'{tlg}\n')
-    try:requests.get(f"https://api.telegram.org/bot{HELLO_TOKEN}/sendMessage?chat_id={HELLO_ID}&text={tlg}")
+    try:requests.get(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={tlg}")
     except:pass
   except:
     tlg = f'''
@@ -274,7 +274,7 @@ by : @Qredes
     by : @Qredes
     '''
   #  print(BLUE+tlg)
-    try:requests.get(f"https://api.telegram.org/bot{HELLO_TOKEN}/sendMessage?chat_id={HELLO_ID}&text={tlg}")
+    try:requests.get(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={tlg}")
     except:pass
     with open('hits1.txt','a') as ff:
       ff.write(f'{tlg}\n')
@@ -347,7 +347,7 @@ def qqq():
   while True:
     try:
       lsd=''.join(choice('eQ6xuzk5X8j6_fGvb0gJrc') for _ in range(16))
-      id=str(randrange(10000,739988755))
+      id=str(randrange(10000,8524936))
       headers = {
       'accept': '*/*',
       'accept-language': 'en-US,en;q=0.9',
